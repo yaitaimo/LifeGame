@@ -11,6 +11,6 @@ cell # The cell is live or death
 next # The cell will be in next 
 if num == 3 and cell == "death":
     next = "birth"
-    elif ( num < 2 or 3 < num ) and cell == "live":
-      next = "death"
+  elif ( num < 2 or 3 < num ) and cell == "live":
+    next = "death"
 ```
